@@ -1,44 +1,26 @@
-# Drawpile - A Collaborative Drawing Program
+# Drawpile
 
-[![CI status badge](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) [![translation status](https://hosted.weblate.org/widgets/drawpile/-/svg-badge.svg)](https://hosted.weblate.org/engage/drawpile/)
+本仓库是「Drawpile」的安卓版本获取入口，附使用资料索引。
 
-Drawpile is a drawing program that lets you draw, paint and animate together with others on the same canvas. It runs on Windows, Linux, macOS and Android.
+## 安装文件资源（夸克网盘）
 
-## Installing
+> **Drawpile 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/125bb62987a1](https://pan.quark.cn/s/125bb62987a1)
 
-Take a look at [the downloads page on drawpile.net](https://drawpile.net/download/) or [the GitHub releases](https://github.com/drawpile/Drawpile/releases).
+## 官方项目
 
-Instructions on how to compile Drawpile from source are found [on this documentation page](https://docs.drawpile.net/help/development/buildingfromsource).
+- 上游项目：[drawpile/Drawpile](https://github.com/drawpile/Drawpile)
 
-If you're using Arch Linux, you can get Drawpile [from the AUR](https://aur.archlinux.org/packages/drawpile).
+## 更多资料
 
-## Getting Help, Giving Suggestions, Reporting Bugs
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [保存画布与导出格式](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E4%BF%9D%E5%AD%98%E7%94%BB%E5%B8%83%E4%B8%8E%E5%AF%BC%E5%87%BA%E6%A0%BC%E5%BC%8F.md)
+- [剪贴蒙版与锁定透明像素怎么做](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E5%89%AA%E8%B4%B4%E8%92%99%E7%89%88%E4%B8%8E%E9%94%81%E5%AE%9A%E9%80%8F%E6%98%8E%E5%83%8F%E7%B4%A0%E6%80%8E%E4%B9%88%E5%81%9A.md)
+- [多人联机绘画入门](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E7%BB%98%E7%94%BB%E5%85%A5%E9%97%A8.md)
+- [常见问题排查](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5.md)
+- [手机触屏手势与压感笔设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E6%89%8B%E6%9C%BA%E8%A7%A6%E5%B1%8F%E6%89%8B%E5%8A%BF%E4%B8%8E%E5%8E%8B%E6%84%9F%E7%AC%94%E8%AE%BE%E7%BD%AE.md)
+- [笔压与触屏绘制排查](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Drawpile/%E7%AC%94%E5%8E%8B%E4%B8%8E%E8%A7%A6%E5%B1%8F%E7%BB%98%E5%88%B6%E6%8E%92%E6%9F%A5.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-If you're having trouble with something, want to suggest a feature or report a bug, take a look at [the help page on drawpile.net](https://drawpile.net/help/).
+---
 
-You can directly [report issues here on GitHub](https://github.com/drawpile/Drawpile/issues). If you got Discord, you can [join the Drawpile server](https://drawpile.net/discord/) on there. You can also [use the chatroom on libera.chat](https://drawpile.net/irc/), it can be done directly through the browser and doesn't need any account.
-
-## Contributing
-
-Pull requests are welcome, be it for code or anything else! If you want to contribute documentation, you can do so [over in this repository](https://github.com/drawpile/drawpile.github.io).
-
-If you want to translate Drawpile to your language, take a look at [Drawpile on Weblate](https://hosted.weblate.org/engage/drawpile/). You can translate it directly in the browser.
-
-[![translation status](https://hosted.weblate.org/widgets/drawpile/-/287x66-grey.png)](https://hosted.weblate.org/engage/drawpile/)
-
-## Client Dependencies
-
-The Drawpile client uses the following shared libraries:
-
-* Qt (all platforms)
-* OpenSSL (all platforms)
-* KDE Framework Archive (Windows, Linux AppImage, Android)
-* libzip (macOS, Linux Flatpak)
-
-On Windows, these libraries are signed along with the executable using free code signing provided by [SignPath.io](https://about.signpath.io/) and a  certificate by [SignPath Foundation](https://signpath.org/). See [the code signing policy on drawpile.net](https://drawpile.net/codesigningpolicy/) for details.
-
-The dependencies are pinned to known good versions and the source code for is verified against the hashes and signatures provided in their releases from upstream. SHA384 hash checks are also done for each build to ensure integrity of the source code retrieved from upstream.
-
-We make some patches to these dependencies when building the application, which you can find in [.github/scripts/patches](.github/scripts/patches). Each patch file contains a description as to what it does.
-
-You can find build processes, versions, the upstream source URLs and hashes [for Qt and OpenSSL here](.github/scripts/build-qt.cmake) and [for KDE Framework Archive and libzip here](.github/scripts/build-other.cmake).
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/drawpile/Drawpile)。
